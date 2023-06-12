@@ -8,7 +8,7 @@
     <script>
         $(document).ready(function(){
             $("img").attr({
-                src: function (index){
+                src: function (index){        //자동으로 index는 1씩 증가됨.
                     var size = (index +1) * 100
                     return "http://placehold.it/" + size +"x100"
                 }
@@ -18,9 +18,9 @@
     </script>
 </head>
 <body>
-    <img>
-    <img>
-    <img>
+    <img>    <!-- 0 -->
+    <img>    <!-- 1 -->
+    <img>    <!-- 2 -->
     
     
 </body>
